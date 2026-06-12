@@ -49,7 +49,7 @@ Raw Legal Text  →  Mistral AI (JSON generation)  →  SQLite (knowledge cards)
    gTTS Audio Generation  →  MP3 files
 
 Streamlit UI:
-  Homepage (cards) → Topic Detail (summary, key info, audio, AI assistant)
+  Homepage (hero + cards) → Topic Detail (summary, key info tabs, audio, AI assistant)
   AI Assistant → RAG retrieval (ChromaDB) → Mistral AI grounded answer → SQLite chat history
 ```
 
@@ -74,7 +74,7 @@ Model names are configurable via `.env` (`MISTRAL_MODEL`, `MISTRAL_EMBED_MODEL`)
 - **LLM**: Mistral AI (`mistralai` SDK)
 - **Vector Database**: ChromaDB (persistent, local)
 - **Database**: SQLite (knowledge cards + chat history)
-- **Frontend**: Streamlit (multi-page app)
+- **Frontend**: Streamlit (multi-page app, with custom CSS for a polished UI)
 - **Text-to-Speech**: gTTS
 - **Config**: python-dotenv
 
@@ -91,11 +91,12 @@ legalx-ai/
 │   ├── rag_store.py         # Chunking, embedding, ChromaDB RAG store
 │   ├── pipeline.py          # AI processing pipeline (card generation)
 │   ├── audio_generator.py   # gTTS audio generation
+│   ├── source_fetcher.py     # Legal Content Source (live fetch + cache fallback)
 │   └── qa_assistant.py       # RAG-based AI Legal Assistant
 ├── frontend/
-│   ├── app.py                # Homepage (Knowledge Centre cards)
+│   ├── app.py                # Homepage: hero banner, pipeline trigger, topic cards grid
 │   └── pages/
-│       └── 1_Topic_Detail.py # Summary, key info, audio, AI assistant
+│       └── 1_Topic_Detail.py # Summary, key info tabs, audio card, AI assistant chat
 ├── data/
 │   ├── raw_sources/*.txt     # Input legal source text (per topic)
 │   ├── audio/                # Generated MP3 audio files
@@ -106,6 +107,45 @@ legalx-ai/
 ├── .env.example
 └── ARCHITECTURE.md
 ```
+
+---
+
+## 6. Frontend (Streamlit UI)
+
+### Homepage (`frontend/app.py`)
+
+- A gradient hero banner introducing LegalX and the AI pipeline.
+- If any topics haven't been processed yet, a warning banner lists them and a
+  **"Run AI Processing Pipeline"** button triggers `process_topic`, `generate_audio`,
+  and `upsert_topic_card` for each missing topic, with a progress bar.
+- A "Legal Topics" section showing an indexed count and a responsive 3-column grid of
+  topic cards (AI-Generated badge, name, short description, "Read More" button).
+  Clicking "Read More" sets `st.session_state["selected_topic"]` and navigates to the
+  detail page via `st.switch_page`.
+
+### Topic Detail Page (`frontend/pages/1_Topic_Detail.py`)
+
+- **Header**: topic name, short description, and a "Home" back button.
+- **Summary panel** (Feature 2): the AI-generated plain-language summary with a word
+  count and generation caption.
+- **Key Information tabs** (Feature 3): four tabs — Key Rights, Important Provisions,
+  Penalties, Who Can Benefit — each rendered as a styled list, with empty-state
+  messages if no items were extracted.
+- **Audio Summary sidebar** (Feature 5): an audio player and download button for the
+  generated MP3, plus metadata about when the card was generated and the
+  generation pipeline used.
+- **AI Legal Assistant** (Feature 4): a gradient-headed chat section with an example
+  question hint, a scrollable chat history (`st.chat_message`), per-answer source
+  citations in an expander, a chat input box, and a "Clear chat history" button.
+
+### Styling
+
+Both pages share a consistent visual identity — a blue gradient hero/header, white
+card panels with soft shadows and rounded corners — implemented via scoped CSS injected
+with `st.markdown(..., unsafe_allow_html=True)`. The layout is responsive: card grids,
+hero padding, and the assistant section adapt for narrower viewports via CSS media
+queries. No backend contracts, function signatures, or data shapes were changed to
+support the UI.
 
 ---
 
@@ -128,7 +168,7 @@ into the AI Processing Pipeline. This is implemented in `backend/source_fetcher.
 
 ---
 
-## 6. Setup Instructions
+## 7. Setup Instructions
 
 ### Step 1 — Clone & install dependencies
 
@@ -180,7 +220,7 @@ Open the URL shown in the terminal (typically `http://localhost:8501`).
 
 ---
 
-## 7. Explanation of the Automation Pipeline
+## 8. Explanation of the Automation Pipeline
 
 1. **Source ingestion (live fetch)**: `backend/source_fetcher.py` downloads the
    official Act/document PDF from a government source (indiacode.nic.in, meity.gov.in,
@@ -200,8 +240,9 @@ Open the URL shown in the terminal (typically `http://localhost:8501`).
    cached by content hash so it's only regenerated when the summary text changes.
 6. **Persistence**: The final card (description, summary, key info, audio path,
    source hash, timestamp) is upserted into SQLite.
-7. **Serving**: The Streamlit homepage reads all cards from SQLite. The topic detail
-   page renders the summary, key info tabs, and audio player.
+7. **Serving**: The Streamlit homepage reads all cards from SQLite and renders them as
+   topic cards. The topic detail page renders the summary panel, key info tabs, audio
+   card, and assistant chat.
 8. **AI Legal Assistant (RAG)**: User questions are embedded, the top-k most relevant
    chunks for that topic are retrieved from ChromaDB, and Mistral generates an answer
    grounded strictly in those chunks — with chunk IDs shown as source citations, and
@@ -209,16 +250,16 @@ Open the URL shown in the terminal (typically `http://localhost:8501`).
 
 ---
 
-## 8. Feature-to-Requirement Mapping
+## 9. Feature-to-Requirement Mapping
 
 | PDF Requirement | Implementation |
 |---|---|
-| Feature 1 — Automated Knowledge Centre (homepage cards) | `frontend/app.py` — cards generated from `backend/pipeline.py` output stored in SQLite |
-| Feature 2 — AI Generated Summary (\u2264250 words) | `backend/pipeline.py` (Mistral JSON generation) + enforced via prompt |
-| Feature 3 — Key Information Extraction | Same pipeline call, extracts `key_rights`, `important_provisions`, `penalties`, `who_benefits` |
-| Feature 4 — AI Legal Assistant | `backend/qa_assistant.py` — RAG via ChromaDB + Mistral, with chat history (SQLite) |
+| Feature 1 — Automated Knowledge Centre (homepage cards) | `frontend/app.py` — hero banner + responsive card grid, generated from `backend/pipeline.py` output stored in SQLite |
+| Feature 2 — AI Generated Summary (\u2264250 words) | `backend/pipeline.py` (Mistral JSON generation) + enforced via prompt, displayed in the summary panel |
+| Feature 3 — Key Information Extraction | Same pipeline call, extracts `key_rights`, `important_provisions`, `penalties`, `who_benefits`, displayed as tabs |
+| Feature 4 — AI Legal Assistant | `backend/qa_assistant.py` — RAG via ChromaDB + Mistral, with chat history (SQLite), rendered as a chat UI |
 | Feature 4 (Bonus) — RAG | ChromaDB + `mistral-embed` (`backend/rag_store.py`) |
-| Feature 5 — Audio Summary (play/download) | `backend/audio_generator.py` (gTTS) + Streamlit audio player & download button |
+| Feature 5 — Audio Summary (play/download) | `backend/audio_generator.py` (gTTS) + Streamlit audio player & download button in the sidebar audio card |
 | Bonus — Source Citations | Retrieved chunk IDs shown in "Sources used" expander in chat |
 | Bonus — Chat History | `chat_history` table in SQLite, per topic |
 | Bonus — AI Search / Vector DB | ChromaDB persistent vector store |
@@ -226,7 +267,7 @@ Open the URL shown in the terminal (typically `http://localhost:8501`).
 
 ---
 
-## 9. Challenges Faced
+## 10. Challenges Faced
 
 - **Ensuring strict word limits** (\u2264250 words) from an LLM required explicit prompt
   constraints and JSON-mode output to keep responses structured and parseable.
@@ -239,10 +280,13 @@ Open the URL shown in the terminal (typically `http://localhost:8501`).
   system-prompt instructions to only use retrieved context.
 - **Idempotent pipeline runs** — using content hashing so re-running the pipeline
   doesn't waste API calls or regenerate unchanged audio.
+- **UI/UX polish without touching backend contracts** — the frontend was restyled
+  (gradient hero, card grid, tabbed key info, chat interface) using scoped CSS only,
+  keeping all function signatures, session-state keys, and database calls unchanged.
 
 ---
 
-## 10. Future Improvements
+## 11. Future Improvements
 
 - Add authentication (per-user chat history, saved topics)
 - Add speech-to-text for voice-based questions to the AI Legal Assistant
@@ -256,7 +300,7 @@ Open the URL shown in the terminal (typically `http://localhost:8501`).
 
 ---
 
-## 11. Important Notes
+## 12. Important Notes
 
 - **API Key**: Add your Mistral API key to `.env` (never commit it — see `.gitignore`).
 - **Disclaimer**: This system provides general legal information for educational
