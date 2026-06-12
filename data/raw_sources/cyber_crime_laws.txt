@@ -1,0 +1,31 @@
+[CACHED FALLBACK SNAPSHOT — used only if live fetch from official government source fails. See backend/source_fetcher.py for source URLs.]
+
+Cyber crime laws in India are primarily governed by the Information Technology Act, 2000 (IT Act), along with relevant provisions of the Indian Penal Code (now Bharatiya Nyaya Sanhita, 2023) and the Information Technology (Amendment) Act, 2008.
+
+Section 43 of the IT Act deals with penalties for unauthorized access, downloading, copying, or extracting data, introducing a computer virus, or damaging a computer system without permission, making the offender liable to pay compensation by way of damages.
+
+Section 66 covers computer-related offences such as hacking, and prescribes imprisonment up to three years or a fine up to Rs 5 lakh, or both, for dishonestly or fraudulently committing acts described in Section 43.
+
+Section 66B addresses punishment for dishonestly receiving stolen computer resources or communication devices, with imprisonment up to three years or a fine up to Rs 1 lakh, or both.
+
+Section 66C deals with identity theft, including fraudulent use of another person's electronic signature, password, or unique identification feature, punishable with imprisonment up to three years and a fine up to Rs 1 lakh.
+
+Section 66D covers cheating by personation using computer resources, such as phishing, with punishment of imprisonment up to three years and a fine up to Rs 1 lakh.
+
+Section 66E penalizes violation of privacy, such as capturing, publishing, or transmitting images of a private area of a person without consent, with imprisonment up to three years or a fine up to Rs 2 lakh, or both.
+
+Section 66F deals with cyber terrorism, defined as acts committed with intent to threaten the unity, integrity, security, or sovereignty of India, or to strike terror by denying access to authorized personnel to a computer resource, or attempting to penetrate or access a computer resource without authorization. Punishment may extend to imprisonment for life.
+
+Section 67 penalizes publishing or transmitting obscene material in electronic form, with imprisonment up to three years and a fine up to Rs 5 lakh for the first conviction, and imprisonment up to five years and a fine up to Rs 10 lakh for subsequent convictions.
+
+Section 67B specifically addresses child sexual abuse material online, with stricter punishment including imprisonment up to five years and a fine up to Rs 10 lakh on first conviction, and up to seven years and Rs 10 lakh on subsequent conviction.
+
+Section 69 empowers the government to intercept, monitor, or decrypt information in the interest of sovereignty, integrity, security, or public order, subject to procedural safeguards.
+
+Cyber fraud commonly refers to online financial frauds such as phishing, OTP fraud, UPI fraud, fake job offers, lottery scams, and online banking fraud, which are typically prosecuted under Sections 66C, 66D of the IT Act along with cheating provisions of the Indian Penal Code/Bharatiya Nyaya Sanhita.
+
+Victims of cyber crime can report incidents through the National Cyber Crime Reporting Portal (cybercrime.gov.in) or by calling the national cyber crime helpline number 1930, which is designed for reporting financial frauds for quick freezing of fraudulent transactions.
+
+Who can benefit: Any individual or organization that is a victim of hacking, identity theft, online fraud, cyberbullying, cyberstalking, online harassment, data theft, or publication of obscene/private content can seek remedy under these provisions. Companies can also seek protection for data breaches and unauthorized access to their computer systems under Sections 43 and 66 of the IT Act.
+
+The Indian Computer Emergency Response Team (CERT-In) functions as the national agency for responding to cybersecurity incidents and issuing advisories.

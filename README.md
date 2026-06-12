@@ -4,7 +4,6 @@ An AI-powered Legal Knowledge Centre that **automatically generates** legal know
 cards — summaries, key information, audio explanations, and a RAG-based Q&A assistant —
 from raw legal source text, using **Mistral AI**.
 
-> Built for the LegalX AI/ML Internship — Round 2 Assessment.
 
 ---
 

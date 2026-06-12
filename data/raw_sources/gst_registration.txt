@@ -1,0 +1,315 @@
+(GOODS AND SERVICES TAX)GST
+Registration under GST Law
+Directorate General of Taxpayer Services
+CENTRAL BOARD OF INDIRECT TAXES & CUSTOMS
+www.cbic.gov.in
+Introduction
+In any tax system registration is the most fundamental requirement for
+identification of tax payers ensuring tax compliance in the economy.
+Registration of any business entity under the GST Law implies obtaining a
+unique number from the concerned tax authorities for the purpose of
+collecting tax on behalf of the government and to avail Input tax credit for
+the taxes on his inward supplies. Without registration, a person can neither
+collect tax from his customers nor claim any input tax credit of tax paid by
+him.
+Need and Advantages of Registration
+Registration will confer the following advantages to a taxpayer:
+•  He is legally recognized as supplier of goods or services
+•  He is legally authorized to collect tax from his customers and pass on the
+credit of the taxes paid on the goods or services supplied to the
+purchasers/ recipients
+• He can claim input tax credit of taxes paid on his purchases /
+procurements and can utilize the same for payment of taxes due on
+supply of goods or services
+• Seamless flow of Input tax credit from suppliers to recipients at the
+national level.
+Liability to Register
+GST being a tax on the event of “supply”, every supplier needs to get
+registered. However, small businesses having all India aggregate turnover
+below Rupees40 Lakh (in case of exclusive supply of goods) (Rupees 20
+lakh if business is in the States of Arunachal Pradesh, Manipur, Meghalaya,
+Mizoram, Nagaland, Puducherry, Sikkim, Telangana, Tripura and Uttarakhand)
+and Rupees 20 lakhs (in case of supply of services or in case of mixed supplies)
+(Rupees 10 lakh if business is in States of Manipur, Mizoram, Nagaland and
+Tripura) need not register.The small businesses, having turnover below the
+threshold limit can, however, voluntarily opt to register.
+The aggregate turnover includes supplies made by him on behalf of his principals,
+but excludes the value of job-worked goods if he is a job worker. But persons
+who are engaged exclusively in the business of supplying goods or services
+or both that are not liable to tax or wholly exempt from tax or an agriculturist,
+to the extent of supply of produce out of cultivation of land are not liable
+to register under GST. Also, if all the supplies being made by a supplier are
+taxable under reverse charge i.e. where total tax is payable by the recipient
+of the goods and / or services, there is no requirement for such a supplier
+to register in light of notification No. 5/2017-Central Tax dated 19.06.2017.In
+GST, if the supplier supplies outside the State, he is required to take registration
+irrespective of the size of his turnover. However, this compulsion is relaxed
+for certain categories of suppliers like supplier of handicraft goods, supplier
+of services, supplier of job work services. If the turnover of the handicraft supplier is less than specifiedthreshold limit, they will not be required to
+register, even if they supply such goods outside the State. In such cases
+they will also not be required to obtain registration as a casual taxable personin
+other States for making supply of the handicraft goods. Also, small Suppliers
+of services, including job workers (except in relation to jewelry, goldsmiths’ and
+silversmiths’ wares) whose aggregate turnover is less than Rupees 20/10
+lakh limit are exempted from registration, even if they supply services
+outside the State.Furthermore, persons supplying services through e-com -
+merce operators are also entitled to avail the Rupees 20/10 lakh threshold
+exemption for registration.
+Nature of Registration
+The registration in GST is PAN based and State specific. Supplier has to
+register in each of such State or Union territory from where he effects
+supply. Area upto 12 nautical miles in the sea is considered part of the
+nearest coastal State where the nearestpoint of appropriate base line is
+located. Area beyond 12 nautical miles and upto 200 nautical miles, which
+is not covered under any Union Territory is considered as a separate Union
+territory for the GST law. A person registered in one State is considered
+‘unregistered person’ outside the State. If a person has unit in SEZ or is a
+SEZ developer and also unit in domestic tariff Area (i.e. outside the SEZ) in
+the same State, then he has to take separate registration for his SEZ unit /
+as a SEZ developer as a separate place of business of him. If a supplier also
+wants to distribute credit to his same-PAN entities, then he will take
+separate registration as ‘input service distributor’ in addition to his
+registration as ‘supplier’. Unlike service tax regime, the GST law does not
+have the facility of centralized registration for units across multiple states.
+In GST registration, the supplier is allotted a 15-digit GST identification number
+called “GSTIN” and a certificate of registration in corporating there in this
+GSTIN is made available to the applicant on the GSTN common portal. The
+first 2 digits of the GSTIN is the State code, next 10 digits are the PAN of
+the legal entity, the next two digits are for entity code, and the last digit is
+check sum number. Registration under GST is not tax specific which means
+that there is a single registration for all the taxes i.e. CGST, SGST/UTGST,
+IGST and cesses.
+Follow us on:
+cbicindia @CBIC_India
+(GOODS AND SERVICES TAX)GST
+Registration under GST Law
+Persons supplying services through e-commerce operators need not take
+compulsory registration and are entitled to avail the threshold exemption
+as per notification No. 65/2017-Central Tax dated 15.11.2017 as amended vide
+notification No. 06/2019- Central Tax dated 29.01.2019. TCS shall not apply,
+where a person supplies his own product through his own website.
+• Those e-commerce operators who are notified as liable for GST payment
+under Section 9(5) of the CGST Act, 2017. Service categories notified under
+this Section are broadly the services of transportation of passengers (e.g.
+by Ola, Uber etc); service of providing accommodation in hotels, inn,
+campsites; and housekeeping services like plumbing, carpentering etc.
+• TDS Deductor. This covers the authorities notified under notification No.
+33/2017-Central Tax dated 15.09.2017, who are mandated to deduct GST TDS
+@ 1% on payment made to supplier where value of such supply, under a
+contract, is more than Rs. 2.5 lakh.Such authorities are required to register
+separately as a TDS deductor irrespective of the turnover, the operation of
+tax deduction has been implemented w.e.f 1st October, 2018.
+• Input service distributor. They need to separately register as ISD regardless
+of the turnover.
+• Those supplying online information and data base access or retrieval
+services from outside India to a non-registered person in India. A simplified
+registration Scheme is provided for OIDAR service suppliers. Instead of
+State-wise registration, hewill take single registration for entire India
+either himself or through his appointed agent in India, and will pay IGST.
+The registration to and other GST compliance by the OIDAR service pro -
+viders is exclusively administered by the Principal Commissioner of Central
+Tax, Bengaluru West and all officers subordinate to him.
+• A casual taxable person is one who has a registered business in some
+State in India, but wants to effect supplies from some other State in which
+he is not having any fixed place of business. Such person needs to register
+in the State from where he seeks to supply as a casual taxable person. A
+non-resident taxable person is one who is a foreigner and occasionally
+wants to effect taxable supplies from any State in India, and for that he
+needs GST registration. GST law prescribes special procedure for registration,
+as also for extension of the operation period of such casual or non-resident
+taxable persons. They have to apply for registration at least five days in
+advance before making any supply. Also, registration is granted to them
+or period of operation is extended only after they make advance deposit
+of the estimated tax liability. While Income Tax PAN is the basis of GST
+registration, the Registration to a non-resident taxable person is given on
+the basis of his valid passport (in case of individual) or the Tax Identification
+number (TAN) issued by the respective country (if it is incorporated
+business entity).
+In respect of supplies to some notified agencies of United Nations
+organisation, multinational financial institutions and other organisations, a
+centralised unique identification number (UIN) is issued.
+Standardization of Procedures
+A total of 30 forms / formats have been prescribed in the GST registration
+rules. For every process in the registration chain such as application for
+registration, acknowledgment, query, rejection, registration certificate,
+showcause notice for cancellation, reply, amendment, field visit report etc.,
+there are standard formats. This will make the process uniform all over the
+country. The decision making process will also be fast. Strict time lines have
+been stipulated for completion of different stages of registration process.
+An application has to be submitted on line through the common portal
+(GSTN) within thirty days from the date when liability to register arose. The
+casual and non-resident taxable persons need to apply at least five days
+prior to the commencement of the business. For transferee of a business as
+going concern, the liability to register arises on the date of transfer.
+The Proper Officer has to either raise a query or approve the grant of
+registration within three working days failing which registration would be
+considered as deemed to have been approved. The applicant would have
+to respond within seven working days starting from the fourth day of filing
+the original application. The proper officer would have to grant or reject the
+application for registration within seven working days thereafter. A given PAN based legal entity would have one GSTIN per State, that means
+a business entity having its branches in multiple States will have to take
+separate State-wise registration for the branches in different States.  But
+a person having multiple places of business in a State or Union territory
+may be granted a separate registration for each such place of business.Fur -
+ther a unit in SEZ or a SEZ developer needs to necessarily obtain separate
+registration. Every registered person is required to display his certificate of
+registration in a prominent location at his principal place of business and at
+every additional place of business. He is also required to display his GSTIN
+on the name board exhibited at the said places.
+Generally, the liability to register under GST arises when you are a “supplier”
+within the meaning of the term, and also if your aggregate turn over in
+the financial year is above the specified exemption threshold. However,
+the GST law enlists certain categories of suppliers who are required to get
+compulsory registration irrespective of their turnover that is to say, the
+specified threshold exemption limit is not available to them. Some of such
+suppliers who need to register compulsorily irrespective of the size of their
+turnover are those who are, -
+• Inter-state suppliers. However, persons making inter-state supplies of
+taxable services and having an aggregate turnover, to be computed on
+all India basis, not exceeding an amount of twenty lakh rupees (ten lakh
+rupees in States of Manipur, Mizoram, Nagalandand Tripura) are exempted
+from obtaining registration vide notification No. 10/2017-Integrated Tax
+dated 13.10.2017 as amended vide notification No. 03/2019- Integrated Tax
+dated 29.01.2019. Also, vide notification No. 03/2018-Integrated Tax dated
+22.10.2018, the Inter-state suppliers of handicraft goods are exempted from
+compulsory registration till they cross the specifiedexemption threshold.
+• A person receiving supplies on which tax is payable by recipient on reverse
+charge basis. This covers the reverse charge on receipt of notified goods or
+services under Section 9(3) of CGST Act and 5(3) of IGST Act, and not those
+under Section 9(4) of CGST Act and Section 5(4) of the IGST Act. The goods
+so notified are cashew nuts, bidi wrapper leaves, tobacco leaves, silk yarn
+and raw cotton supplied by agriculturist, used vehicles, seized and
+confiscated goods, old and used goods, waste and scrap supplied by
+Government. The services notified for reverse charge include import of
+service, Goods transport agency service, legal services provided by
+advocates, certain services provided by Government, services supplied by
+an insurance agent or recovery agent, services by way of granting
+sponsorship, inward ocean freight services etc. However if all the supplies
+being made by the supplier are taxable under reverse charge where no
+tax is payable by the supplier on goods or services or both, then there is
+no such requirement for such supplier to register in light of notification
+No.05/2017- Central tax dated 19.06.2017.
+• Casual taxable person who is not having fixed place of business in the
+State or Union Territory from where he wants to make supply. However
+casual taxable persons making supplies of specified handicraft goods need
+not take compulsory registration and are entitled to the threshold exemption
+limit. Handicraft goods are specified in Explanation to notification No.
+21/2018- Central Tax (Rate) dated 26.07.2018.
+• Non-resident taxable persons who are not having fixed place of business
+or residence in India. ‘Non-resident taxable persons’ and ‘Casual taxable
+persons’ can make taxable supplies only after obtaining the registration
+and they have to deposit in advance the estimated tax liability at the time
+of applying for the registration. They are given registration with 90 days’
+validity, which can be extended on need based basis for another 90 days.
+• A person who supplies on behalf of some other taxable person (i.e.
+an Agent of some Principal). This covers ‘Consignment Agents’ or ‘C&F
+Agents’, and not ‘Commission Agent’. A commission agent does not
+affectsupply; he only facilitates it. The scope of agent and principal has
+been clarified vide Circular No. 73/47/2018-GST dated 05.11.2018.
+• An e-commerce operator, who is required to collect tax at source under
+section 52, who provide platform to the suppliers to make supply through
+it.Suppliers of goods who supply through such e-commerce operator who
+are liable to collect tax at source to the extent of 2% [1% CGST + 1% SGST/
+UTGST or 2% IGST] while making payment to the respective supplier.
+Follow us on:
+cbicindia @CBIC_India(GOODS AND SERVICES TAX)GST
+Registration under GST Law
+Amendment of Registration
+Except for the changes in some core information in the registration
+application, a taxable person shall be able to make amendments without
+requiring any specific approval from the tax authority. In case the change
+is for legal name of the business, or the State of place of business or
+additional place of business, the taxable person will apply for amendment
+within 15 days of the event necessitating the change. The proper officer,
+then, will approve the amendment within next 15 days. For other
+changes like name of day to day functionaries, e-mail Ids, Mobile numbers
+etc. no approval of the proper officer is required, and the amendment can
+be affected by the taxable person on his own on the common portal.A
+functionality to update email and mobile number of the authorised signatory
+is available in the GST system. The taxpayers can get it done by the
+concerned jurisdictional tax authority. Generally, the amendments take
+effect from the date of application for amendment. Commissioner,
+however, has been given powers to permit amendments with
+retrospective effect.
+Cancellation of Registration
+The GST law provides for two scenarios where cancellation of registration
+can take place; the one when the taxable person no more requires it
+(voluntary cancellation), and another when the proper officer considers
+the registration liable for cancellation in view of certain specified defaults
+(Suo-moto cancellation) like when the registrant is not doing business from
+the registered place of business or if he issues tax invoice without making
+the supply of goods or services. The taxable person desirous of cancellation
+of Registration will apply on the common portal within 30 days of event
+warranting cancellation. He will also declare in the application the stock
+held on the date preceding to the date with effect from which he seeks
+cancellation. He will also work out and declare the quantum of dues of
+payments and credit reversal, and the particulars of payments made
+towards discharge of such liabilities.
+Till 23.01.2018, the voluntary registration taken despite not being liable for
+obtaining registration could not be cancelled until expiry of one year. However,
+the rule has now been amended to allow voluntary registration to be
+cancelled any time. In all the aforesaid cases of cancellation, the proper
+officer, if satisfied, has to cancel the registration within 30 days from the
+date of application or the date of reply to notice (if issued, when rejection
+is concluded by the officer).
+Suspension of Registration
+i. Where a registered person has applied forcancellation of registration, the
+registration shall be deemed to besuspended from the date of submission of
+the application or the date from which thecancellation is sought, whichever is
+later, pending the completion of proceedings for cancellation of registration.
+ii. Where the proper officer has reasons to believe that the registration of
+a person isliable to be cancelled under section 29, he may suspend the reg -
+istration of such person with effect from a date to be determined by him,
+pending the completion of the proceedings for cancellation of registration.
+iii. A registered person, whose registration has been suspended, shall not
+make any taxable supply during the period of suspension and shall not be
+required to furnish any monthly / quarterly return.
+Revocation of Cancellation
+i. When the  registration has been cancelled by the Proper Officer
+(Superintend ent of Central Tax) on his own motion and not on the basis of
+an application by the registered person, then the registered person, whose
+registration has been  cancelled, can submit an application for revocation of
+cancellation of registration, in FORM GST REG-21, to the Proper Officer (As -
+sistant or Deputy Commissioners of Central Tax), within a period of thirty
+days from the date of the service of the order of cancellation of registration
+at the common portal, either directly or through a Facilitation Centre notified
+by the Commissioner.
+ii. However, if the registration has been cancelled for failure to furnish returns,
+application for revocation shall be filed, only after such returns are
+furnished and any amount due as tax, in terms of such returns, has been
+paid along with any amount payable towards interest, penalty and late fee
+in respect of the said returns.iii. On examination of the application, if the Proper Officer (Assistant or
+Deputy Commissioners of Central Tax) is satisfied, for reasons to be
+recorded in writing, that there are sufficient grounds for revocation of
+cancellation of registration, then he shall revoke the cancellation of
+registration by an order in FORM GST REG-22 within a period of thirty days
+from the date of the receipt of the application and communicate the same
+to the applicant.
+iv.  However, if on examination of the application for revocation, if the
+Proper Officer (Assistant or Deputy Commissioners of Central Tax) is not
+satisfied then he will issue a notice in FORM GST REG–23 requiring the
+applicant to show cause as to why the application submitted for revocation
+should not be rejected and the applicant has to furnish the reply within a
+period of seven working days from the date of the service of the notice in
+FORM GST REG-24.
+v. Upon receipt of the information or clarification in FORM GST REG-24, the
+Proper Officer (Assistant or Deputy Commissioners of Central Tax) shall
+dispose of the application within a period of thirty days from the date of
+the receipt of such information or clarification from the applicant. In case
+the information or clarification provided is satisfactory, the Proper Officer
+(Assistant or Deputy Commissioners of Central Tax) shall dispose the
+application as per para (iii) above. In case it is not satisfactory the applicant
+will be mandatorily given an opportunity of being heard, after which the
+Proper Officer (Assistant or Deputy Commissioners of Central Tax) after
+recording the reasons in writing may by an order in FORM GST REG- 05,
+reject the application for revocation of cancellation of registration and
+communicate the same to the applicant.
+vi. The revocation of cancellation of registration under the SGST Act or the
+UTGST Act, as the case may be, shall be deemed to be a revocation of
+cancellation of registration under CGST Act.
+Physical Verification in Connection with Registration
+Physical verification is to be resorted to only where it is found necessary
+in the subjective satisfaction of the proper officer. If at all, it is felt necessary,
+it will be undertaken only after granting the registration and the verification
+report along with the supporting documents and photographs shall have to be
+uploaded on the common portal within fifteen working days.

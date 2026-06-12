@@ -1,0 +1,9 @@
+.env
+__pycache__/
+*.pyc
+data/legalx.db
+data/audio/*.mp3
+vectorstore/
+.venv/
+venv/
+*.egg-info/
