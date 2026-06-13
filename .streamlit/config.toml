@@ -1,0 +1,10 @@
+[client]
+showErrorDetails = false
+
+[logger]
+level = "error"
+
+[server]
+maxUploadSize = 200
+enableXsrfProtection = true
+enableCORS = true
