@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 # Allow running `streamlit run app.py` from project root with backend/ as a package
-sys.path.append(str(Path(__file__).resolve().parent))
+sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 import streamlit as st
 
