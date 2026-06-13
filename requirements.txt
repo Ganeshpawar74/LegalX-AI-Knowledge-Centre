@@ -3,7 +3,6 @@ mistralai==1.2.5
 chromadb==0.5.5
 gTTS==2.5.3
 python-dotenv==1.0.1
-pydantic==2.7.0
 tiktoken==0.7.0
 requests==2.32.3
 pypdf==4.3.1
