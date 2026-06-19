@@ -29,8 +29,7 @@ generates:
   **RAG (Retrieval-Augmented Generation)** with source citations and chat history
 - **Feature 5** — An audio version of the summary (play + download), generated via gTTS
 
-**Nothing is hardcoded or manually written** — all card content, summaries, key info,
-and Q&A answers are generated at runtime by the AI pipeline from the raw source text in
+
 `data/raw_sources/`.
 
 ---
